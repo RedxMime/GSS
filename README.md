@@ -1,11 +1,8 @@
-# guilded-spam-selfbot
-боты для guilded которые спамят вашу хуйню. (гилдед говно)
-перед юзом выстави директорию в файле main.py
-текст жля спама менять в bot.py
-запускать батник или main.py если не с винды
+guilded bots that spam your bullshit. (shit gilded) before using, set the directory in the main.py file to change the text for spam in bot.py run the batch file or main.py if not from Windows
 
-## в планах:
- - [ ] сделать автоматический вход на сервер
- - [ ] заабцать норм дизайн
- - [ ] расширение(очка) функционала
- - [ ] обработчик ошибок
+in the plans:
+
+ make an automatic login to the server
+ zaabtsat norms design
+ extension (point) of functionality
+ error handler
