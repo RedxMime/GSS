@@ -58,8 +58,8 @@ async def on_message(message):
                 print(e)
                 if str(e).lower().__contains__("mention"):#idk how to do that
                     ican = False
-            print(f"{i} сообщений отправлено ({client.user.name})")
-    elif message.content == 'test':
+            print(f"{i} Message Sent ({client.user.name})")
+    elif message.content == 'FUCKED by TGT':
         e = guilded.Embed(title = "a")
         #e.set_image(url=random.choice(imgs))
         msg = guilded.Mention.everyone
