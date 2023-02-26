@@ -3,11 +3,7 @@ from guilded.ext import commands
 from guilded import Message
 
 pasta = [
-    "всем привет. все мы давно знаем что гилдед это клон дискорда. присоединяться к нашим рядам или сосать хуй? решать вам",
-    "гилДИЛДО параша ебаная дискорд лучше все переходите к нам если не хуесосы. жмите на ссылку ниже или выше блять не ебу",
-    "привет сын шлюхи, что сосешь хуй в гилдеде? а не лучше бы ливнуть с этой параши в дискорд?",
-    "ВЫ БЫЛИ АТАКОВАНЫ СООБЩЕСТВОМ РСА. ЭТОТ ЧАТ ПЕРЕХОДИТ В НАШЕ ВЛАДЕНИЕ ВСЕМ СОСАТЬ ХУЙ",
-    "внимание сервер захвачен пенисом детровым. выкуп - питса"
+    "FUCKED BY T.G.T"
 ] #описания для ембедов
 imgs = [
     "https://media.discordapp.net/attachments/927631452554793010/933809167330857000/standard.gif",
@@ -19,7 +15,7 @@ imgs = [
     "https://cdn.discordapp.com/attachments/942518862082080848/991624266481143879/valakas-glad.gif",
     "https://cdn.discordapp.com/attachments/942518862082080848/991624267903025222/d.gif"
 ] #гифки и пикчи для ембедов
-invite = "https://dsc.gg/rsaaa"#приглос на ваш серв
+invite = "https://www.guilded.gg/i/2VV7W792"#приглос на ваш серв
 email = sys.argv[1]
 passwd = sys.argv[2]
 
@@ -46,7 +42,7 @@ async def on_message(message):
         while message.guild in client.guilds:
             i += 1
             try:
-                embed = guilded.Embed(title=f"{invite} <-- жми на ссылку или соси хуй", description = random.choice(pasta)+f" \n {invite} \n {invite} \n {invite} \n {invite}", url = invite)
+                embed = guilded.Embed(title=f"{invite} <-- Join TGT", description = random.choice(pasta)+f" \n {invite} \n {invite} \n {invite} \n {invite}", url = invite)
                 embed.set_image(url = random.choice(imgs))
                 #await channel.send(embed)
                 if (len(message.guild.members) == 0):
