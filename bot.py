@@ -19,7 +19,7 @@ invite = "https://www.guilded.gg/i/2VV7W792"#приглос на ваш серв
 email = sys.argv[1]
 passwd = sys.argv[2]
 
-client = commands.UserbotBot(command_prefix="")
+client = commands.UserbotBot(command_prefix=".")
 
 @client.event
 async def on_ready():
